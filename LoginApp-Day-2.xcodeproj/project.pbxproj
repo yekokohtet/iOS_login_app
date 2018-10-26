@@ -14,6 +14,7 @@
 		348E75C8217C4E55002578D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348E75C6217C4E55002578D9 /* LaunchScreen.storyboard */; };
 		348E75D0217C5B59002578D9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348E75CF217C5B59002578D9 /* Constants.swift */; };
 		348E75D2217C5C74002578D9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348E75D1217C5C74002578D9 /* SecondViewController.swift */; };
+		348E75D421823C07002578D9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348E75D321823C07002578D9 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		348E75C9217C4E55002578D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		348E75CF217C5B59002578D9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		348E75D1217C5C74002578D9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		348E75D321823C07002578D9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		348E75BC217C4E54002578D9 /* LoginApp-Day-2 */ = {
 			isa = PBXGroup;
 			children = (
+				348E75D321823C07002578D9 /* RegisterViewController.swift */,
 				348E75BD217C4E54002578D9 /* AppDelegate.swift */,
 				348E75BF217C4E54002578D9 /* ViewController.swift */,
 				348E75C1217C4E54002578D9 /* Main.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				348E75D2217C5C74002578D9 /* SecondViewController.swift in Sources */,
+				348E75D421823C07002578D9 /* RegisterViewController.swift in Sources */,
 				348E75C0217C4E54002578D9 /* ViewController.swift in Sources */,
 				348E75BE217C4E54002578D9 /* AppDelegate.swift in Sources */,
 				348E75D0217C5B59002578D9 /* Constants.swift in Sources */,

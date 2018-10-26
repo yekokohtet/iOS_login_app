@@ -21,6 +21,8 @@ class ViewController: UIViewController {
         
         btnLogin.addTarget(self, action: #selector(onClickLogin), for: .touchUpInside)
         
+        btnRegister.addTarget(self, action: #selector(onClickRegister), for: .touchUpInside)
+        
     }
 
     @objc func onClickLogin() {
@@ -44,6 +46,15 @@ class ViewController: UIViewController {
         } else {
             
         }
+    }
+    
+    @objc func onClickRegister() {
+        
+        let navigationController = self.storyboard?.instantiateViewController(withIdentifier: "RegisterViewController") as! UINavigationController
+        
+//        let registerViewController = navigationController.viewControllers[0] as! RegisterViewController
+        
+        self.present(navigationController, animated: true, completion: nil)
     }
     
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
